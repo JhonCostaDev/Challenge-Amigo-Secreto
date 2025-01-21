@@ -21,3 +21,12 @@ function atualizarListaAmigos(item){
     listItem.textContent = item;
     listaAmigos.append(listItem);
 }
+//TODO: FAZER FUNCIONAR...
+function sortearAmigo(){
+    let resultado = document.getElementById('resultado');
+    
+    const indiceAleatorio = Math.floor(Math.random() * array.length);
+    //resultado.innerHTML =
+    
+
+}
