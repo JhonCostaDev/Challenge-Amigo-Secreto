@@ -9,8 +9,15 @@ let amigos = [];
 function adicionarAmigo(){
     let amigo = document.getElementById("amigo").value;
     amigos.push(amigo);
-    let listaAmigos = document.getElementById("listaAmigos");
-    listaAmigos.innerHTML = amigos;
+   
     document.getElementById('amigo').value = '';
+    atualizarListaAmigos(amigo);
 }
 
+function atualizarListaAmigos(item){
+    let listaAmigos = document.getElementById("listaAmigos");
+    let listItem = document.createElement('li');
+    //listaAmigos.innerHTML = amigos;
+    listItem.textContent = item;
+    listaAmigos.append(listItem);
+}
