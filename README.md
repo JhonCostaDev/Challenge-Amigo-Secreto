@@ -1,10 +1,11 @@
+![logo oracle one](https://compliancesolucoes.com.br/wp-content/uploads/2022/11/ONE_logo_rgb.png)
 # Challenge-Amigo-Secreto
 
 # **Amigo Secreto**
 
 ---
 
-Neste desafio, você desenvolverá uma aplicação que permita aos usuários inserir nomes de amigos em uma lista para, em seguida, realizar um sorteio aleatório e determinar quem é o "amigo secreto".
+Neste challenger, foi desenvolvido uma aplicação para os usuários inserirem nomes de amigos em uma lista para, em seguida, realizar um sorteio aleatório e determinar quem é o "amigo secreto".
 
 O usuário deverá adicionar nomes por meio de um campo de texto e de um botão "Adicionar".
 
